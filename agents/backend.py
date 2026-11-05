@@ -7,10 +7,10 @@ LABEL = 'Desarrollador backend'
 SPEC_FILE = 'backend_spec.md'
 EXTRACT_CODE = True
 
-INSTRUCTIONS = "Implementa los endpoints y servicios del plan, respetando el contrato de API.
-Valida las entradas y devuelve errores coherentes.
-Define acceso a datos y transacciones. En equipos de seis cubre también esquema y migraciones; con Datos, consume su contrato sin duplicar sus migraciones.
-Incluye un caso válido, un error y comandos para comprobarlos.
+INSTRUCTIONS = "Implementa los endpoints y servicios del plan, respetando el contrato de API.\n\
+Valida las entradas y devuelve errores coherentes.\n\
+Define acceso a datos y transacciones. En equipos de seis cubre también esquema y migraciones; con Datos, consume su contrato sin duplicar sus migraciones.\n\
+Incluye un caso válido, un error y comandos para comprobarlos.\n\
 Entrega backend_spec.md y código Java con el formato de extracción que ya exige build_task."
 
 agent = Agent(role='Desarrollador backend Python', goal="Implementa servicios, endpoints, validaciones y acceso a datos según los contratos aprobados de Arquitectura y Datos. En equipos de seis también cubre la persistencia.",
